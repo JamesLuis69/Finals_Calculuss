@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculus Lessons</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>📘 Calculus Lessons</h1>
+    <p>Learn the beauty of calculus — one step at a time.</p>
+    <div class="top-bar">
+      <button id="helpBtn">❓ Need Help</button>
+      <label class="switch">
+        <input type="checkbox" id="dark-toggle" />
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </header>
+
+  <main>
+    <!-- Lesson Sections -->
+    <section class="card" id="lesson1">
+      <h2>📊 Daily Life Optimization</h2>
+      <p>Use calculus to optimize routes, schedules, and habits.</p>
+      <a href="https://www.youtube.com/watch?v=lx8RcYcYVuU" target="_blank">Watch how optimization works!</a>
+    </section>
+
+    <section class="card" id="lesson2">
+      <h2>📈 Modeling Growth and Decay</h2>
+      <p>Learn how calculus predicts growth and decay trends.</p>
+      <a href="https://www.youtube.com/watch?v=M9rcYTuFG4w" target="_blank">See growth and decay in action!</a>
+    </section>
+
+    <section class="card" id="lesson3">
+      <h2>🎮 Calculus in Game Physics</h2>
+      <p>Understand the math behind jumps, throws, and motion in games.</p>
+      <a href="https://www.youtube.com/watch?v=IQ4LGQRBhrc" target="_blank">Learn the math behind games!</a>
+    </section>
+
+    <section class="card" id="lesson4">
+      <h2>🧠 Problem Solving with Calculus</h2>
+      <p>Design puzzles and real-life problems made easy with calculus.</p>
+      <a href="https://www.youtube.com/watch?v=R_KYYNmspqs&list=PLADfMnz16UfHdwARvrS2EtflevhfM5F1N" target="_blank">See calculus solve real problems!</a>
+    </section>
+
+    <!-- New Lessons -->
+    <section class="card" id="lesson5">
+      <h2>🔢 Integration Techniques</h2>
+      <p>Explore different integration techniques like substitution and parts.</p>
+      <a href="https://www.youtube.com/watch?v=2N6A4ed8s58&list=PLWYuCHEwjSqI5HAhTqpEoTGhkiy6DTGoN" target="_blank">Master integration techniques!</a>
+    </section>
+
+    <section class="card" id="lesson6">
+      <h2>📉 Derivatives in Economics</h2>
+      <p>Learn how derivatives are used in optimizing profit and cost functions.</p>
+      <a href="https://www.youtube.com/watch?v=dW6hz2pvbWI&list=PLCSugqK6YYtwm_1MbTWMYT5wmHsqKqZCR" target="_blank">Watch economic applications of derivatives!</a>
+    </section>
+
+    <section class="card" id="lesson7">
+      <h2>🔄 Limits and Continuity</h2>
+      <p>Understand the concept of limits and how they define continuity in functions.</p>
+      <a href="https://www.youtube.com/watch?v=9brk313DjV8" target="_blank">Explore limits and continuity!</a>
+    </section>
+
+    <section class="card" id="lesson8">
+      <h2>🧑‍🏫 Multivariable Calculus</h2>
+      <p>Dive into partial derivatives and multiple integrals for multivariable functions.</p>
+      <a href="https://www.youtube.com/watch?v=JAf_aSIJryg" target="_blank">Learn multivariable calculus!</a>
+    </section>
+
+    <section class="card" id="lesson9">
+      <h2>🔍 Differential Equations</h2>
+      <p>Learn to solve basic differential equations and their applications.</p>
+      <a href="https://www.youtube.com/watch?v=C7nuJcJriWM" target="_blank">Understand differential equations!</a>
+    </section>
+
+    <!-- Quiz Section (Interactive Game) -->
+    <section class="card game-section" id="quizSection">
+      <h2>🧩 Test Your Calculus Skills</h2>
+      <p id="question"></p>
+      <div id="choices"></div>
+      <button id="revealBtn" style="display:none;">Reveal Solution</button>
+      <p id="solution" class="solution-text"></p>
+      <button id="nextBtn" style="display:none;">Next Question</button>
+      <button id="restartBtn" style="display:none;">Play Again</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Calculus Lessons. Made with 💙 for curious minds.</p>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTopBtn" class="back-to-top-btn">↑</button>
+
+  <script src="index.js"></script>
+</body>
+</html>
